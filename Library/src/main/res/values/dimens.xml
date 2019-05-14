@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sources -->
+    <!-- https://github.com/TheKhaeng/material-design-guideline/ -->
+    <!-- https://github.com/DmitryMalkovich/material-design-dimens -->
+    <!-- https://material.io/guidelines/material-design/introduction.html -->
+    <!-- Take a look at images folder for guide -->
+    <!-- Last Update October 2017 -->
+    <!-- TODO: add java codes for dimens -->
+
+    <!-- common sizes -->
+    <dimen name="default_dialog_round_corner_small">2dp</dimen>
+    <dimen name="default_dialog_round_corner">4dp</dimen>
+    <dimen name="default_dialog_round_corner_large">8dp</dimen>
+
+    <dimen name="default_padding_margin_extra_small">2dp</dimen>
+    <dimen name="default_padding_margin_small">4dp</dimen>
+    <dimen name="default_padding_margin">8dp</dimen>
+    <dimen name="default_padding_margin_large">16dp</dimen>
+    <dimen name="default_padding_margin_extra_large">24dp</dimen>
+    <dimen name="default_padding_margin_extra_extra_large">32dp</dimen>
+    <dimen name="default_padding_margin_extra_extra_extra_large">48dp</dimen>
+
+    <dimen name="default_icon_size_extra_small">12dp</dimen>
+    <dimen name="default_icon_size_small">16dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_icon_size_large">36dp</dimen>
+    <dimen name="default_icon_size_extra_large">48dp</dimen>
+    <dimen name="default_icon_size_extra_extra_large">56dp</dimen>
+
+    <dimen name="default_stroke_small">1dp</dimen>
+    <dimen name="default_stroke">2dp</dimen>
+    <dimen name="default_stroke_large">3dp</dimen>
+
+    <dimen name="default_divider_size">1dp</dimen>
+    <dimen name="default_divider_size_large">2dp</dimen>
+
+    <!-- Elevations -->
+    <!-- https://material.io/guidelines/material-design/elevation-shadows.html -->
+    <dimen name="elevation_dialog">24dp</dimen>
+    <dimen name="elevation_picker">24dp</dimen>
+    <dimen name="elevation_nav_drawer">16dp</dimen>
+    <dimen name="elevation_right_drawer">16dp</dimen>
+    <dimen name="elevation_modal_bottom_sheet">16dp</dimen>
+    <dimen name="elevation_floating_action_button_pressed_state">12dp</dimen>
+    <dimen name="elevation_sub_menu">9dp</dimen> <!-- (+1 dp for each sub menu) -->
+    <dimen name="elevation_bottom_navigation_bar">8dp</dimen>
+    <dimen name="elevation_menu">8dp</dimen>
+    <dimen name="elevation_card_picked_up">8dp</dimen>
+    <dimen name="elevation_raised_button_pressed_state">8dp</dimen>
+    <dimen name="elevation_floating_action_button_resting_state">6dp</dimen>
+    <dimen name="elevation_snackbar">6dp</dimen>
+    <dimen name="elevation_app_bar">4dp</dimen>
+    <dimen name="elevation_refresh_indicator">3dp</dimen>
+    <dimen name="elevation_search_bar_scrolling_state">3dp</dimen>
+    <dimen name="elevation_card_resting_state">2dp</dimen>
+    <dimen name="elevation_raised_button_resting_state">2dp</dimen>
+    <dimen name="elevation_search_bar_resting_state">2dp</dimen>
+    <dimen name="elevation_switch">1dp</dimen>
+
+    <!-- Typography -->
+    <!-- english like, dense and tall are not much different to bring separably -->
+    <!-- you want to know each language belongs to which category refer to: -->
+    <!-- https://material.io/guidelines/style/typography.html -->
+    <dimen name="typography_display4">112sp</dimen>
+    <dimen name="typography_display3">56sp</dimen>
+    <dimen name="typography_display2">45sp</dimen>
+    <dimen name="typography_display1">34sp</dimen>
+    <dimen name="typography_headline">24sp</dimen>
+    <dimen name="typography_title">20sp</dimen>
+    <dimen name="typography_subheading">16sp</dimen>
+    <dimen name="typography_body2">14sp</dimen>
+    <dimen name="typography_body1">14sp</dimen>
+    <dimen name="typography_caption">12sp</dimen>
+    <dimen name="typography_button">14sp</dimen>
+
+    <!-- Metrics & Keylines -->
+    <!-- https://material.io/guidelines/layout/metrics-keylines.html -->
+    <!-- List -->
+    <dimen name="list_screen_edge_left_and_right_margins">16dp</dimen>
+    <dimen name="list_content_associated_with_an_icon_or_avatar_left_margin">72dp</dimen>
+    <dimen name="list_horizontal_margins_on_mobile">16dp</dimen>
+    <dimen name="list_status_bar">24dp</dimen>
+    <dimen name="list_toolbar">56dp</dimen>
+    <dimen name="list_subtitle">48dp</dimen>
+    <dimen name="list_item">72dp</dimen>
+    <dimen name="list_title">72dp</dimen>
+    <dimen name="list_Space_between_content_areas">8dp</dimen>
+    <!-- Details -->
+    <dimen name="details_screen_edge_left_and_right_margins">16dp</dimen>
+    <dimen name="details_content_left_margin_from_screen_edge">72dp</dimen>
+    <dimen name="details_right_side_icons_margin">32dp</dimen>
+    <dimen name="details_status_bar">24dp</dimen>
+    <dimen name="details_toolbar">56dp</dimen>
+    <dimen name="details_space_between_content_areas">8dp</dimen>
+    <dimen name="details_list_item">72dp</dimen>
+    <!-- Navigation Drawer -->
+    <dimen name="nav_drawer_screen_edge_left_and_right_margins">16dp</dimen>
+    <dimen name="nav_drawer_content_associated_with_an_icon_or_avatar_left_margin">72dp</dimen>
+    <dimen name="nav_drawer_side_nav_width">56dp</dimen>
+    <dimen name="nav_drawer_account_menu_and_list_items">48dp</dimen>
+    <dimen name="nav_drawer_space_between_content_areas">8dp</dimen>
+    <dimen name="nav_drawer_navigation_right_margin">56dp</dimen>
+
+    <!-- AppBar -->
+    <!-- https://material.io/guidelines/layout/structure.html -->
+    <dimen name="app_bar_height">56dp</dimen>
+    <dimen name="app_bar_extended_height">128dp</dimen>
+    <dimen name="app_bar_left_and_right_padding">16dp</dimen>
+    <dimen name="app_bar_icon_top_bottom_left_padding">16dp</dimen>
+    <dimen name="app_bar_title_left_padding">72dp</dimen>
+    <dimen name="app_bar_title_bottom_padding">20dp</dimen>
+    <dimen name="app_bar_action_area_height">56dp</dimen>
+    <dimen name="app_bar_title_area_height">80dp</dimen>
+    <dimen name="app_bar_title_area_bottom_padding">8dp</dimen>
+    <dimen name="app_bar_description_area_height">72dp</dimen>
+    <dimen name="app_bar_description_area_bottom_padding">16dp</dimen>
+    <dimen name="app_bar_left_and_right_content_padding">24dp</dimen>
+    <dimen name="app_bar_icon_top_and_bottom_padding">20dp</dimen>
+    <dimen name="app_bar_left_content_padding">80dp</dimen>
+    <dimen name="app_bar_Icon_height">40dp</dimen>
+
+    <!-- Bottom Navigation -->
+    <!-- Navigation Bar https://material.io/guidelines/components/bottom-navigation.html -->
+    <dimen name="bottom_nav_baractive_item_max_width">168dp</dimen>
+    <dimen name="bottom_nav_baractive_item_min_width">96dp</dimen>
+    <dimen name="bottom_nav_barinactive_item_max_width">96dp</dimen>
+    <dimen name="bottom_nav_barinactive_item_min_width">56dp</dimen>
+    <dimen name="bottom_nav_baritem_height">56dp</dimen>
+    <dimen name="bottom_nav_baritem_padding_left_and_right">12dp</dimen>
+    <dimen name="bottom_nav_baritem_inactive_padding_above">6dp</dimen>
+    <dimen name="bottom_nav_baritem_active_padding_above">8dp</dimen>
+    <dimen name="bottom_nav_baritem_padding_bottom">10dp</dimen>
+    <dimen name="bottom_nav_baritem_icon_size">24dp</dimen>
+
+    <!-- Bottom sheets -->
+    <!-- https://material.io/guidelines/components/bottom-sheets.html -->
+    <!-- List Style -->
+    <dimen name="bottom_sheet_list_style_edge_left_right_margins">16dp</dimen>
+    <dimen name="bottom_sheet_list_style_space_below_the_top_list_item">7dp</dimen>
+    <dimen name="bottom_sheet_list_style_divider_line">1dp</dimen>
+    <dimen name="bottom_sheet_list_style_space_above_second_bottom_sheet">8dp</dimen>
+    <dimen name="bottom_sheet_list_style_list_item_height">48dp</dimen>
+    <dimen name="bottom_sheet_list_style_list_item_icons">24dp</dimen> <!-- middle vertical alignment -->
+    <dimen name="bottom_sheet_list_style_list_item_text_horizontal_padding">32dp</dimen>
+    <dimen name="bottom_sheet_list_style_list_title_height">56dp</dimen>
+    <!-- Grid Style -->
+    <dimen name="bottom_sheet_grid_style_edge_left_right_margins">24dp</dimen>
+    <dimen name="bottom_sheet_grid_style_space_below_list_row">8dp</dimen>
+    <dimen name="bottom_sheet_grid_style_divider_line">1dp</dimen>
+    <dimen name="bottom_sheet_grid_style_space_above_and_below_divider_line">8dp</dimen>
+    <dimen name="bottom_sheet_grid_style_list_item_icons">48dp</dimen>
+    <dimen name="bottom_sheet_grid_style_list_item_label">16dp</dimen> <!-- center-aligned below each icon -->
+    <dimen name="bottom_sheet_grid_style_list_title_height">56dp</dimen>
+
+    <!-- Buttons -->
+    <!-- https://material.io/guidelines/components/buttons.html -->
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_touchable_target_height">48dp</dimen>
+    <dimen name="button_corner_radius">2dp</dimen>
+    <dimen name="button_left_and_right_padding">16dp</dimen>
+    <dimen name="button_min_width">88dp</dimen>
+
+    <!-- Floating action button -->
+    <!-- https://material.io/guidelines/components/buttons-floating-action-button.html -->
+    <dimen name="fab_width_and_height">56dp</dimen>
+    <dimen name="fab_mini_width_and_height">40dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <!-- Cards -->
+    <!-- https://material.io/guidelines/components/cards.html -->
+    <dimen name="cards_left_and_right_padding">16dp</dimen>
+    <dimen name="cards_top_and_bottom_padding">16dp</dimen>
+    <dimen name="cards_padding_from_edge_of_screen_to_card">8dp</dimen>
+    <dimen name="cards_space_between_cards">8dp</dimen>
+
+    <!-- Chips -->
+    <!-- https://material.io/guidelines/components/chips.html -->
+    <dimen name="chips_height">32dp</dimen>
+    <dimen name="chips_deletable_label_left_padding">12dp</dimen>
+    <dimen name="chips_deletable_remove_icon_size">24dp</dimen>
+    <dimen name="chips_deletable_remove_icon_margin">4dp</dimen>
+    <dimen name="chips_non_deletable_label_left_and_right_padding">12dp</dimen>
+    <dimen name="chips_contact_label_left_padding">8dp</dimen>
+    <dimen name="chips_contact_label_right_padding">12dp</dimen>
+
+    <!-- Data tables -->
+    <!-- No useful dimen -->
+
+    <!-- Dialogs -->
+    <!-- https://material.io/guidelines/components/dialogs.html -->
+    <dimen name="dialogs_content_padding">24dp</dimen>
+    <dimen name="dialogs_padding_between_title_and_body_text">20dp</dimen>
+    <dimen name="dialogs_buttons_margin">8dp</dimen>
+    <dimen name="dialogs_button_area_height">52dp</dimen>
+    <dimen name="dialogs_padding_between_text_and_touch_target">24dp</dimen>
+    <dimen name="dialogs_elevation">24dp</dimen>
+    <dimen name="dialogs_button_height">36dp</dimen>
+    <dimen name="dialogs_padding_below_touch_target_to_dialog_edge">8dp</dimen>
+    <dimen name="dialogs_padding_between_button_text_right_edge_and_dialog_edge">16dp</dimen>
+    <dimen name="dialogs_minimum_button_width">64dp</dimen>
+    <dimen name="dialogs_internal_button_padding">8dp</dimen>
+    <dimen name="dialogs_padding_between_buttons">8dp</dimen>
+    <dimen name="dialogs_left_button_padding">24dp</dimen>
+    <dimen name="dialogs_right_button_padding">8dp</dimen>
+    <dimen name="fullscreen_dialogs_app_bar_height_with_a_single_line_of_text">56dp</dimen>
+    <dimen name="fullscreen_dialogs_app_bar_height_with_two_lines_of_text">80dp</dimen>
+    <dimen name="fullscreen_dialogs_title_text_keyline">72dp</dimen>
+    <dimen name="fullscreen_dialogs_title_text">20dp</dimen>
+    <dimen name="fullscreen_dialogs_title_text_top_and_bottom_padding">20dp</dimen>
+    <dimen name="fullscreen_dialogs_dismissive_action_padding_from_left_edge">16dp</dimen>
+    <dimen name="fullscreen_dialogs_affirmative_action_text">14sp</dimen>
+    <dimen name="fullscreen_dialogs_affirmative_action_text_padding_on_the_left_and_right">16dp</dimen>
+
+    <!-- Dividers -->
+    <dimen name="divider">1dp</dimen>
+
+    <!-- Expansion panels -->
+    <!-- No useful dimen -->
+
+    <!-- Grid lists -->
+    <!--https://material.io/guidelines/components/grid-lists.html-->
+    <dimen name="grid_lists_single_line_header_footer_height">48dp</dimen>
+    <dimen name="grid_lists_single_line_header_footer_text_padding">16dp</dimen>
+    <dimen name="grid_lists_single_line_font_size">16sp</dimen>
+    <dimen name="grid_lists_two_line_header_footer_height">68dp</dimen>
+    <dimen name="grid_lists_two_line_header_footer_text_padding">16dp</dimen>
+    <dimen name="grid_lists_two_line_font_size_large">16sp</dimen>
+    <dimen name="grid_lists_two_line_font_size_medium">14sp</dimen>
+    <dimen name="grid_lists_two_line_font_size_small">12sp</dimen>
+
+    <!-- Lists -->
+    <!-- https://material.io/guidelines/components/lists.html -->
+    <dimen name="single_line_list_text_only_font_size">16sp</dimen>
+    <dimen name="single_line_list_text_only_height">48dp</dimen>
+    <dimen name="single_line_list_text_only_left_and_right_padding">16dp</dimen>
+    <dimen name="single_line_list_text_only_top_padding">8dp</dimen>
+
+    <dimen name="single_line_list_with_icon_font_size">16sp</dimen>
+    <dimen name="single_line_list_with_icon_height">48dp</dimen>
+    <dimen name="single_line_list_with_icon_icon_padding_left">16dp</dimen>
+    <dimen name="single_line_list_with_icon_text_padding_left">72dp</dimen>
+    <dimen name="single_line_list_with_icon_top_padding">8dp</dimen>
+
+    <dimen name="single_line_list_with_avatar_font_size">16sp</dimen>
+    <dimen name="single_line_list_with_avatar_height">56dp</dimen>
+    <dimen name="single_line_list_with_avatar_avatar_padding_left">16dp</dimen>
+    <dimen name="single_line_list_with_avatar_text_padding_left">72dp</dimen>
+    <dimen name="single_line_list_with_avatar_top_padding">8dp</dimen>
+
+    <dimen name="single_line_list_with_avatar_and_icon_font_size">16sp</dimen>
+    <dimen name="single_line_list_with_avatar_and_icon_height">56dp</dimen>
+    <dimen name="single_line_list_with_avatar_and_icon_avatar_padding_left">16dp</dimen>
+    <dimen name="single_line_list_with_avatar_and_icon_icon_padding_right">16dp</dimen>
+    <dimen name="single_line_list_with_avatar_and_icon_text_padding_left">72dp</dimen>
+    <dimen name="single_line_list_with_avatar_and_icon_top_padding">8dp</dimen>
+
+    <dimen name="two_line_list_text_only_font_size">16sp</dimen>
+    <dimen name="two_line_list_text_only_height">72dp</dimen>
+    <dimen name="two_line_list_text_only_left_and_right_padding">16dp</dimen>
+    <dimen name="two_line_list_text_only_top_padding">8dp</dimen>
+
+    <dimen name="two_line_list_with_icon_font_size">16sp</dimen>
+    <dimen name="two_line_list_with_icon_height">72dp</dimen>
+    <dimen name="two_line_list_with_icon_icon_padding_left">16dp</dimen>
+    <dimen name="two_line_list_with_icon_text_padding_right">16dp</dimen>
+    <dimen name="two_line_list_with_icon_text_padding_left">72dp</dimen>
+    <dimen name="two_line_list_with_icon_top_padding">8dp</dimen>
+
+    <dimen name="two_line_list_with_avatar_font_size">16sp</dimen>
+    <dimen name="two_line_list_with_avatar_height">72dp</dimen>
+    <dimen name="two_line_list_with_avatar_avatar_padding_left">16dp</dimen>
+    <dimen name="two_line_list_with_avatar_text_padding_right">16dp</dimen>
+    <dimen name="two_line_list_with_avatar_text_padding_left">72dp</dimen>
+    <dimen name="two_line_list_with_avatar_top_padding">8dp</dimen>
+
+    <dimen name="two_line_list_with_avatar_and_icon_font_size">16sp</dimen>
+    <dimen name="two_line_list_with_avatar_and_icon_height">72dp</dimen>
+    <dimen name="two_line_list_with_avatar_and_icon_avatar_padding_left">16dp</dimen>
+    <dimen name="two_line_list_with_avatar_and_icon_icon_padding_right">16dp</dimen>
+    <dimen name="two_line_list_with_avatar_and_icon_text_padding_left">72dp</dimen>
+    <dimen name="two_line_list_with_avatar_and_icon_top_padding">8dp</dimen>
+
+    <dimen name="three_line_list_text_only_font_size">16sp</dimen>
+    <dimen name="three_line_list_text_only_height">88dp</dimen>
+    <dimen name="three_line_list_text_only_left_and_right_padding">16dp</dimen>
+    <dimen name="three_line_list_text_only_top_padding">8dp</dimen>
+
+    <dimen name="three_line_list_with_icon_font_size">16sp</dimen>
+    <dimen name="three_line_list_with_icon_height">88dp</dimen>
+    <dimen name="three_line_list_with_icon_icon_padding_left">16dp</dimen>
+    <dimen name="three_line_list_with_icon_text_padding_right">16dp</dimen>
+    <dimen name="three_line_list_with_icon_text_padding_left">72dp</dimen>
+    <dimen name="three_line_list_with_icon_top_padding">8dp</dimen>
+
+    <dimen name="three_line_list_with_avatar_font_size">16sp</dimen>
+    <dimen name="three_line_list_with_avatar_height">88dp</dimen>
+    <dimen name="three_line_list_with_avatar_avatar_padding_left">16dp</dimen>
+    <dimen name="three_line_list_with_avatar_text_padding_right">16dp</dimen>
+    <dimen name="three_line_list_with_avatar_text_padding_left">72dp</dimen>
+    <dimen name="three_line_list_with_avatar_top_padding">8dp</dimen>
+
+    <dimen name="three_line_list_with_avatar_and_icon_font_size">16sp</dimen>
+    <dimen name="three_line_list_with_avatar_and_icon_height">88dp</dimen>
+    <dimen name="three_line_list_with_avatar_and_icon_avatar_padding_left">16dp</dimen>
+    <dimen name="three_line_list_with_avatar_and_icon_icon_padding_right">16dp</dimen>
+    <dimen name="three_line_list_with_avatar_and_icon_text_padding_left">72dp</dimen>
+    <dimen name="three_line_list_with_avatar_and_icon_top_padding">8dp</dimen>
+
+    <!-- Lists: Controls -->
+    <!-- No useful dimen -->
+
+    <!-- Menus -->
+    <!-- https://material.io/guidelines/components/menus.html -->
+    <dimen name="menu_item_height">48dp</dimen>
+    <dimen name="menu_item_text_left_padding">16dp</dimen>
+    <dimen name="menu_item_text_bottom_padding">20dp</dimen>
+    <dimen name="menu_top_padding">8dp</dimen>
+    <dimen name="menu_bottom_padding">8dp</dimen>
+    <dimen name="menu_typography">16dp</dimen>
+
+    <!-- Pickers -->
+    <!-- No useful dimen -->
+
+    <!-- Progress & activity -->
+    <!-- No useful dimen -->
+
+    <!-- Selection controls -->
+    <!-- No useful dimen -->
+
+    <!-- Sliders -->
+    <!-- No useful dimen -->
+
+    <!-- Snackbars & toasts -->
+    <!-- https://material.io/guidelines/components/snackbars-toasts.html -->
+    <dimen name="snackbar_single_line_height">48dp</dimen>
+    <dimen name="snackbar_multi_line_height">80dp</dimen>
+
+    <!-- Steppers -->
+    <!-- https://material.io/guidelines/components/steppers.html -->
+    <dimen name="vertical_stepper_active_step_circle">24dp</dimen>
+    <dimen name="vertical_stepper_active_step_font_size">14sp</dimen>
+    <dimen name="vertical_stepper_inactive_step_circle">24dp</dimen>
+    <dimen name="vertical_stepper_inactive_step_font_size">12sp</dimen>
+    <dimen name="vertical_stepper_connector_line">1dp</dimen>
+    <dimen name="vertical_stepper_step_height">72dp</dimen>
+    <dimen name="vertical_stepper_icon_top_bottom_left_padding">24dp</dimen>
+    <dimen name="vertical_stepper_icon_right_padding">8dp</dimen>
+    <dimen name="vertical_stepper_icon_top_and_bottom_padding">8dp</dimen>
+    <dimen name="vertical_stepper_label_top_padding">24dp</dimen>
+    <dimen name="vertical_stepper_label_button_padding">16dp</dimen>
+    <dimen name="vertical_stepper_vertical_space_below_inactive_step">40dp</dimen>
+    <dimen name="vertical_stepper_vertical_space_below_active_step">48dp</dimen>
+    <dimen name="vertical_stepper_button_height">48dp</dimen>
+
+    <dimen name="horizontal_stepper_standard_step_height">72dp</dimen>
+    <dimen name="horizontal_stepper_standard_icon_top_bottom_left_padding">24dp</dimen>
+    <dimen name="horizontal_stepper_standard_icon_right_padding">8dp</dimen>
+
+    <dimen name="horizontal_stepper_alternative_label_step_height">104dp</dimen>
+    <dimen name="horizontal_stepper_alternative_label_icon_left_right_padding">8dp</dimen>
+    <dimen name="horizontal_stepper_alternative_label_icon_top_padding">16dp</dimen>
+    <dimen name="horizontal_stepper_alternative_label_icon_and_label_padding">24dp</dimen>
+
+    <!-- Subheaders -->
+    <!-- No useful dimen -->
+
+    <!-- Tabs -->
+    <!-- https://material.io/guidelines/components/tabs.html -->
+    <dimen name="fixed_tabs_maximum_width">264dp</dimen>
+    <dimen name="fixed_tabs_minimum_width_for_large_views">160dp</dimen>
+    <dimen name="fixed_tabs_minimum_width_for_small_views">72dp</dimen>
+    <dimen name="fixed_tabs_height">48dp</dimen>
+    <dimen name="fixed_tabs_tab_item_left_right_padding">12dp</dimen>
+    <dimen name="fixed_tabs_tab_bottom_padding">20dp</dimen>
+    <dimen name="fixed_tabs_tab_indicator_height">2dp</dimen>
+    <dimen name="fixed_tabs_text_font_size">14sp</dimen>
+
+    <dimen name="tabs_with_text_only_height">48dp</dimen>
+    <dimen name="tabs_with_text_only_text_font_size">14sp</dimen>
+
+    <dimen name="tabs_with_icon_and_text_height">72dp</dimen>
+    <dimen name="tabs_with_icon_and_text_icon_size">24dp</dimen>
+    <dimen name="tabs_with_icon_and_text_padding_between_icon_and_text">10dp</dimen>
+    <dimen name="tabs_with_icon_and_text_padding_under_text">16dp</dimen>
+
+    <dimen name="tabs_with_icon_only_height">48dp</dimen>
+    <dimen name="tabs_with_icon_only_icon_size">24dp</dimen>
+    <dimen name="tabs_with_icon_only_padding_left_and_right">12dp</dimen>
+    <dimen name="tabs_with_icon_only_padding_under_text">12dp</dimen>
+
+    <dimen name="scrollable_tabs_font_size">14sp</dimen>
+
+    <!-- Text fields -->
+    <!-- https://material.io/guidelines/components/text-fields.html -->
+    <dimen name="text_field_resting_top_padding">16dp</dimen>
+    <dimen name="text_field_resting_bottom_padding">8dp</dimen>
+
+    <dimen name="text_field_floating_top_padding_above_label">16dp</dimen>
+    <dimen name="text_field_floating_bottom_padding_below_label">8dp</dimen>
+    <dimen name="text_field_floating_bottom_padding_below_input">8dp</dimen>
+
+    <dimen name="text_field_icon_signifier_width">24dp</dimen>
+    <dimen name="text_field_padding_between_icon_signifier_and_text">16dp</dimen>
+
+    <dimen name="text_field_voice_input_width">24dp</dimen>
+    <dimen name="text_field_voice_input_padding_below_icon">8dp</dimen>
+
+    <dimen name="text_field_drop_down_arrow_width">24dp</dimen>
+    <dimen name="text_field_drop_down_arrow_height">24dp</dimen>
+    <dimen name="text_field_drop_down_arrow_padding_below_icon">8dp</dimen>
+
+    <dimen name="text_field_clear_icon_width">24dp</dimen>
+    <dimen name="text_field_clear_icon_height">8dp</dimen>
+    <dimen name="text_field_clear_icon_padding_below_icon">8dp</dimen>
+
+    <dimen name="text_field_padding_above_label">16dp</dimen>
+    <dimen name="text_field_padding_below_label">8dp</dimen>
+    <dimen name="text_field_padding_above_text_input_line">8dp</dimen>
+    <dimen name="text_field_padding_below_text_input_line">8dp</dimen>
+
+    <!-- Toolbars -->
+    <!-- No useful dimen -->
+
+    <!-- Tooltips -->
+    <!-- No useful dimen -->
+
+    <!-- finger prints -->
+    <!-- https://material.io/guidelines/patterns/fingerprint.html -->
+    <dimen name="finger_prints_dialog_left_and_right_bottom">24dp</dimen>
+    <dimen name="finger_prints_dialog_top_padding">24dp</dimen>
+    <dimen name="finger_prints_dialog_title_bottom_margin">20dp</dimen>
+    <dimen name="finger_prints_dialog_subtitle_bottom_margin">28dp</dimen>
+    <dimen name="finger_prints_dialog_finger_print_icon_right_margin">16dp</dimen>
+    <dimen name="finger_prints_dialog_touch_sensor_height">40dp</dimen>
+    <dimen name="finger_prints_dialog_touch_sensor_top_and_bottom_padding">12dp</dimen>
+    <dimen name="finger_prints_dialog_button_container_height">52dp</dimen>
+    <dimen name="finger_prints_dialog_button_container_padding">8dp</dimen>
+    <dimen name="finger_prints_dialog_button_height">36dp</dimen>
+    <dimen name="finger_prints_dialog_button_right_and_left_padding">8dp</dimen>
+</resources>

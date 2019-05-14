@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- we defined inheritToolbarColor because we want a different view color when we use NightMode (White instead of same as primary color)-->
+    <!-- here we defined an attribute, we can use it in views like style="?attr/inheritToolbarColor" or we can use it in our style down below like <item name="inheritToolbarColor">some color</item>-->
+    <!-- inheritToolbarColor attr is used in Sports Rule App.-->
+    <!-- TODO: add white theme, colored theme, material theme, try color 300 themes from health and fitness -->
+    <attr name="inheritToolbarColor" format="reference"/>
+    <!-- TODO: Icons and colorAccent needs improvements.-->
+    <!-- TODO: Fullscreen, appbar overlay and pop up overlay need to be added too.-->
+    <!-- TODO: icons need to be added too.-->
+    <!-- TODO: check all values for name attribute like colorBackground, textColor and etc.-->
+    <!-- TODO: nightMode colors may need improvements.-->
+
+    <!-- this is the base theme for all light colors -->
+    <style name="BaseThemeLight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- this is the base theme for all dark colors -->
+    <style name="BaseThemeDark" parent="Theme.AppCompat">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- Red-->
+    <!-- this is the light theme -->
+    <style name="AppThemeRed" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkRed</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryRed</item>
+    </style>
+
+    <!-- this is the light theme with no action bar-->
+    <style name="AppThemeRed.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- fullscreen example -->
+    <style name="AppThemeRed.Fullscreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- this is the dark theme -->
+    <style name="AppThemeRedDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkRed</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryRed</item>
+    </style>
+
+    <!-- this is the dark theme with no action bar-->
+    <style name="AppThemeRedDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Pink -->
+    <style name="AppThemePink" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkPink</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryPink</item>
+    </style>
+
+    <style name="AppThemePink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemePinkDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkPink</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryPink</item>
+    </style>
+
+    <style name="AppThemePinkDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Purple -->
+    <style name="AppThemePurple" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryPurple</item>
+    </style>
+
+    <style name="AppThemePurple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemePurpleDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryPurple</item>
+    </style>
+
+    <style name="AppThemePurpleDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- DeepPurple -->
+    <style name="AppThemeDeepPurple" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryDeepPurple</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkDeepPurple</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryDeepPurple</item>
+    </style>
+
+    <style name="AppThemeDeepPurple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDeepPurpleDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryDeepPurple</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkDeepPurple</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryDeepPurple</item>
+    </style>
+
+    <style name="AppThemeDeepPurpleDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Indigo -->
+    <style name="AppThemeIndigo" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryIndigo</item>
+    </style>
+
+    <style name="AppThemeIndigo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeIndigoDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryIndigo</item>
+    </style>
+
+    <style name="AppThemeIndigoDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Blue -->
+    <style name="AppThemeBlue" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryBlue</item>
+    </style>
+
+    <style name="AppThemeBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeBlueDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryBlue</item>
+    </style>
+
+    <style name="AppThemeBlueDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- LightBlue -->
+    <style name="AppThemeLightBlue" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryLightBlue</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkLightBlue</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryLightBlue</item>
+    </style>
+
+    <style name="AppThemeLightBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeLightBlueDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryLightBlue</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkLightBlue</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryLightBlue</item>
+    </style>
+
+    <style name="AppThemeLightBlueDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Cyan -->
+    <style name="AppThemeCyan" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkCyan</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryCyan</item>
+    </style>
+
+    <style name="AppThemeCyan.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeCyanDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkCyan</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryCyan</item>
+    </style>
+
+    <style name="AppThemeCyanDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Teal -->
+    <style name="AppThemeTeal" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkTeal</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryTeal</item>
+    </style>
+
+    <style name="AppThemeTeal.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeTealDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkTeal</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryTeal</item>
+    </style>
+
+    <style name="AppThemeTealDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Green -->
+    <style name="AppThemeGreen" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryGreen</item>
+    </style>
+
+    <style name="AppThemeGreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeGreenDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryGreen</item>
+    </style>
+
+    <style name="AppThemeGreenDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- LightGreen -->
+    <style name="AppThemeLightGreen" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryLightGreen</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkLightGreen</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryLightGreen</item>
+    </style>
+
+    <style name="AppThemeLightGreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeLightGreenDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryLightGreen</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkLightGreen</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryLightGreen</item>
+    </style>
+
+    <style name="AppThemeLightGreenDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Lime -->
+    <style name="AppThemeLime" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryLime</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkLime</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryLime</item>
+    </style>
+
+    <style name="AppThemeLime.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeLimeDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryLime</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkLime</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryLime</item>
+    </style>
+
+    <style name="AppThemeLimeDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Yellow -->
+    <style name="AppThemeYellow" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkYellow</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryYellow</item>
+    </style>
+
+    <style name="AppThemeYellow.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeYellowDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkYellow</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryYellow</item>
+    </style>
+
+    <style name="AppThemeYellowDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Amber -->
+    <style name="AppThemeAmber" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryAmber</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkAmber</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryAmber</item>
+    </style>
+
+    <style name="AppThemeAmber.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeAmberDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryAmber</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkAmber</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryAmber</item>
+    </style>
+
+    <style name="AppThemeAmberDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Orange -->
+    <style name="AppThemeOrange" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryOrange</item>
+    </style>
+
+    <style name="AppThemeOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeOrangeDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryOrange</item>
+    </style>
+
+    <style name="AppThemeOrangeDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- DeepOrange -->
+    <style name="AppThemeDeepOrange" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryDeepOrange</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkDeepOrange</item>
+        <item name="colorAccent">@color/materialAccentDeepOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryDeepOrange</item>
+    </style>
+
+    <style name="AppThemeDeepOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDeepOrangeDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryDeepOrange</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkDeepOrange</item>
+        <item name="colorAccent">@color/materialAccentDeepOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryDeepOrange</item>
+    </style>
+
+    <style name="AppThemeDeepOrangeDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Brown -->
+    <style name="AppThemeBrown" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryBrown</item>
+    </style>
+
+    <style name="AppThemeBrown.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeBrownDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryBrown</item>
+    </style>
+
+    <style name="AppThemeBrownDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Grey -->
+    <style name="AppThemeGrey" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkGrey</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryGrey</item>
+    </style>
+
+    <style name="AppThemeGrey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeGreyDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkGrey</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryGrey</item>
+    </style>
+
+    <style name="AppThemeGreyDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- BlueGrey -->
+    <style name="AppThemeBlueGrey" parent="BaseThemeLight">
+        <item name="colorPrimary">@color/materialPrimaryBlueGrey</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBlueGrey</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryBlueGrey</item>
+    </style>
+
+    <style name="AppThemeBlueGrey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeBlueGreyDark" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialPrimaryBlueGrey</item>
+        <item name="colorPrimaryDark">@color/materialPrimaryDarkBlueGrey</item>
+        <item name="colorAccent">@color/materialAccentOrange</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialPrimaryBlueGrey</item>
+    </style>
+
+    <style name="AppThemeBlueGreyDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- NightMode -->
+    <style name="AppThemeNightMode" parent="BaseThemeDark">
+        <item name="colorPrimary">@color/materialNight</item>
+        <item name="colorPrimaryDark">@color/materialNight</item>
+        <item name="colorAccent">@color/materialWhite</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextColorSecondary</item>
+        <item name="inheritToolbarColor">@color/materialWhite</item>
+    </style>
+
+    <style name="AppThemeNightMode.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

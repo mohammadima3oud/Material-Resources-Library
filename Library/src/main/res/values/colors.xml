@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: add java codes for colors -->
+    <!-- All Material Colors (Primary & Primary Dark & Accent 200) -->
+    <!--                     Material Colors        https://www.materialui.co               -->
+
+    <!-- Red -->
+    <color name="materialPrimaryRed">#F44336</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkRed">#D32F2F</color> <!-- White textColor -->
+    <color name="materialAccentRed">#FF5252</color> <!-- White textColor -->
+
+    <!-- Pink -->
+    <color name="materialPrimaryPink">#E91E63</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkPink">#C2185B</color> <!-- White textColor -->
+    <color name="materialAccentPink">#FF4081</color> <!-- White textColor -->
+
+    <!-- Purple -->
+    <color name="materialPrimaryPurple">#9C27B0</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkPurple">#7B1FA2</color> <!-- White textColor -->
+    <color name="materialAccentPurple">#E040FB</color> <!-- White textColor -->
+
+    <!-- DeepPurple -->
+    <color name="materialPrimaryDeepPurple">#673AB7</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkDeepPurple">#512DA8</color> <!-- White textColor -->
+    <color name="materialAccentDeepPurple">#7C4DFF</color> <!-- White textColor -->
+
+    <!-- Indigo -->
+    <color name="materialPrimaryIndigo">#3F51B5</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkIndigo">#303F9F</color> <!-- White textColor -->
+    <color name="materialAccentIndigo">#536DFE</color> <!-- White textColor -->
+
+    <!-- Blue -->
+    <color name="materialPrimaryBlue">#2196F3</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkBlue">#1976D2</color> <!-- White textColor -->
+    <color name="materialAccentBlue">#448AFF</color> <!-- White textColor -->
+
+    <!-- LightBlue -->
+    <color name="materialPrimaryLightBlue">#03A9F4</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkLightBlue">#0288D1</color> <!-- White textColor -->
+    <color name="materialAccentLightBlue">#40C4FF</color> <!-- Black textColor -->
+
+    <!-- Cyan -->
+    <color name="materialPrimaryCyan">#00BCD4</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkCyan">#0097A7</color> <!-- White textColor -->
+    <color name="materialAccentCyan">#18FFFF</color> <!-- Black textColor -->
+
+    <!-- Teal -->
+    <color name="materialPrimaryTeal">#009688</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkTeal">#00796B</color> <!-- White textColor -->
+    <color name="materialAccentTeal">#64FFDA</color> <!-- Black textColor -->
+
+    <!-- Green -->
+    <color name="materialPrimaryGreen">#4CAF50</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkGreen">#388E3C</color> <!-- White textColor -->
+    <color name="materialAccentGreen">#69F0AE</color> <!-- Black textColor -->
+
+    <!-- Light Green -->
+    <color name="materialPrimaryLightGreen">#8BC34A</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkLightGreen">#689F38</color> <!-- White textColor -->
+    <color name="materialAccentLightGreen">#B2FF59</color> <!-- Black textColor -->
+
+    <!-- Lime -->
+    <color name="materialPrimaryLime">#CDDC39</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkLime">#AFB42B</color> <!-- Black textColor -->
+    <color name="materialAccentLime">#EEFF41</color> <!-- Black textColor -->
+
+    <!-- Yellow -->
+    <color name="materialPrimaryYellow">#FFEB3B</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkYellow">#FBC02D</color> <!-- Black textColor -->
+    <color name="materialAccentYellow">#FFFF00</color> <!-- Black textColor -->
+
+    <!-- Amber -->
+    <color name="materialPrimaryAmber">#FFC107</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkAmber">#FFA000</color> <!-- Black textColor -->
+    <color name="materialAccentAmber">#FFD740</color> <!-- Black textColor -->
+
+    <!-- Orange -->
+    <color name="materialPrimaryOrange">#FF9800</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkOrange">#F57C00</color> <!-- Black textColor -->
+    <color name="materialAccentOrange">#FFAB40</color> <!-- Black textColor -->
+
+    <!-- Deep Orange -->
+    <color name="materialPrimaryDeepOrange">#FF5722</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkDeepOrange">#E64A19</color> <!-- White textColor -->
+    <color name="materialAccentDeepOrange">#FF6E40</color> <!-- Black textColor -->
+
+    <!-- Brown -->
+    <color name="materialPrimaryBrown">#795548</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkBrown">#5D4037</color> <!-- White textColor -->
+
+    <!-- Grey -->
+    <color name="materialPrimaryGrey">#9E9E9E</color> <!-- Black textColor -->
+    <color name="materialPrimaryDarkGrey">#616161</color> <!-- White textColor -->
+
+    <!-- Blue Grey -->
+    <color name="materialPrimaryBlueGrey">#607D8B</color> <!-- White textColor -->
+    <color name="materialPrimaryDarkBlueGrey">#455A64</color> <!-- White textColor -->
+    <!-- All Material Colors -->
+
+    <!-- Red -->
+    <color name="materialRed50">#FFEBEE</color> <!-- Black textColor -->
+    <color name="materialRed100">#FFCDD2</color> <!-- Black textColor -->
+    <color name="materialRed200">#EF9A9A</color> <!-- Black textColor -->
+    <color name="materialRed300">#E57373</color> <!-- Black textColor -->
+    <color name="materialRed400">#EF5350</color> <!-- White textColor -->
+    <color name="materialRed500">#F44336</color> <!-- White textColor -->
+    <color name="materialRed600">#E53935</color> <!-- White textColor -->
+    <color name="materialRed700">#D32F2F</color> <!-- White textColor -->
+    <color name="materialRed800">#C62828</color> <!-- White textColor -->
+    <color name="materialRed900">#B71C1C</color> <!-- White textColor -->
+
+    <color name="materialRedA100">#FF8A80</color> <!-- Black textColor -->
+    <color name="materialRedA200">#FF5252</color> <!-- White textColor -->
+    <color name="materialRedA400">#FF1744</color> <!-- White textColor -->
+    <color name="materialRedA700">#D50000</color> <!-- White textColor -->
+
+    <!-- Pink -->
+    <color name="materialPink50">#FCE4EC</color> <!-- Black textColor -->
+    <color name="materialPink100">#F8BBD0</color> <!-- Black textColor -->
+    <color name="materialPink200">#F48FB1</color> <!-- Black textColor -->
+    <color name="materialPink300">#F06292</color> <!-- White textColor -->
+    <color name="materialPink400">#EC407A</color> <!-- White textColor -->
+    <color name="materialPink500">#E91E63</color> <!-- White textColor -->
+    <color name="materialPink600">#D81B60</color> <!-- White textColor -->
+    <color name="materialPink700">#C2185B</color> <!-- White textColor -->
+    <color name="materialPink800">#AD1457</color> <!-- White textColor -->
+    <color name="materialPink900">#880E4F</color> <!-- White textColor -->
+
+    <color name="materialPinkA100">#FF80AB</color> <!-- Black textColor -->
+    <color name="materialPinkA200">#FF4081</color> <!-- White textColor -->
+    <color name="materialPinkA400">#F50057</color> <!-- White textColor -->
+    <color name="materialPinkA700">#C51162</color> <!-- White textColor -->
+
+    <!-- Purple -->
+    <color name="materialPurple50">#F3E5F5</color> <!-- Black textColor -->
+    <color name="materialPurple100">#E1BEE7</color> <!-- Black textColor -->
+    <color name="materialPurple200">#CE93D8</color> <!-- Black textColor -->
+    <color name="materialPurple300">#BA68C8</color> <!-- White textColor -->
+    <color name="materialPurple400">#AB47BC</color> <!-- White textColor -->
+    <color name="materialPurple500">#9C27B0</color> <!-- White textColor -->
+    <color name="materialPurple600">#8E24AA</color> <!-- White textColor -->
+    <color name="materialPurple700">#7B1FA2</color> <!-- White textColor -->
+    <color name="materialPurple800">#6A1B9A</color> <!-- White textColor -->
+    <color name="materialPurple900">#4A148C</color> <!-- White textColor -->
+
+    <color name="materialPurpleA100">#EA80FC</color> <!-- Black textColor -->
+    <color name="materialPurpleA200">#E040FB</color> <!-- White textColor -->
+    <color name="materialPurpleA400">#D500F9</color> <!-- White textColor -->
+    <color name="materialPurpleA700">#AA00FF</color> <!-- White textColor -->
+
+    <!-- DeepPurple -->
+    <color name="materialDeepPurple50">#EDE7F6</color> <!-- Black textColor -->
+    <color name="materialDeepPurple100">#D1C4E9</color> <!-- Black textColor -->
+    <color name="materialDeepPurple200">#B39DDB</color> <!-- Black textColor -->
+    <color name="materialDeepPurple300">#9575CD</color> <!-- White textColor -->
+    <color name="materialDeepPurple400">#7E57C2</color> <!-- White textColor -->
+    <color name="materialDeepPurple500">#673AB7</color> <!-- White textColor -->
+    <color name="materialDeepPurple600">#5E35B1</color> <!-- White textColor -->
+    <color name="materialDeepPurple700">#512DA8</color> <!-- White textColor -->
+    <color name="materialDeepPurple800">#4527A0</color> <!-- White textColor -->
+    <color name="materialDeepPurple900">#311B92</color> <!-- White textColor -->
+
+    <color name="materialDeepPurpleA100">#B388FF</color> <!-- Black textColor -->
+    <color name="materialDeepPurpleA200">#7C4DFF</color> <!-- White textColor -->
+    <color name="materialDeepPurpleA400">#651FFF</color> <!-- White textColor -->
+    <color name="materialDeepPurpleA700">#6200EA</color> <!-- White textColor -->
+
+    <!-- Indigo -->
+    <color name="materialIndigo50">#E8EAF6</color> <!-- Black textColor -->
+    <color name="materialIndigo100">#C5CAE9</color> <!-- Black textColor -->
+    <color name="materialIndigo200">#9FA8DA</color> <!-- Black textColor -->
+    <color name="materialIndigo300">#7986CB</color> <!-- White textColor -->
+    <color name="materialIndigo400">#5C6BC0</color> <!-- White textColor -->
+    <color name="materialIndigo500">#3F51B5</color> <!-- White textColor -->
+    <color name="materialIndigo600">#3949AB</color> <!-- White textColor -->
+    <color name="materialIndigo700">#303F9F</color> <!-- White textColor -->
+    <color name="materialIndigo800">#283593</color> <!-- White textColor -->
+    <color name="materialIndigo900">#1A237E</color> <!-- White textColor -->
+
+    <color name="materialIndigoA100">#8C9EFF</color> <!-- Black textColor -->
+    <color name="materialIndigoA200">#536DFE</color> <!-- White textColor -->
+    <color name="materialIndigoA400">#3D5AFE</color> <!-- White textColor -->
+    <color name="materialIndigoA700">#304FFE</color> <!-- White textColor -->
+
+    <!-- Blue -->
+    <color name="materialBlue50">#E3F2FD</color> <!-- Black textColor -->
+    <color name="materialBlue100">#BBDEFB</color> <!-- Black textColor -->
+    <color name="materialBlue200">#90CAF9</color> <!-- Black textColor -->
+    <color name="materialBlue300">#64B5F6</color> <!-- Black textColor -->
+    <color name="materialBlue400">#42A5F5</color> <!-- Black textColor -->
+    <color name="materialBlue500">#2196F3</color> <!-- White textColor -->
+    <color name="materialBlue600">#1E88E5</color> <!-- White textColor -->
+    <color name="materialBlue700">#1976D2</color> <!-- White textColor -->
+    <color name="materialBlue800">#1565C0</color> <!-- White textColor -->
+    <color name="materialBlue900">#0D47A1</color> <!-- White textColor -->
+
+    <color name="materialBlueA100">#82B1FF</color> <!-- Black textColor -->
+    <color name="materialBlueA200">#448AFF</color> <!-- White textColor -->
+    <color name="materialBlueA400">#2979FF</color> <!-- White textColor -->
+    <color name="materialBlueA700">#2962FF</color> <!-- White textColor -->
+
+    <!-- LightBlue -->
+    <color name="materialLightBlue50">#E1F5FE</color> <!-- Black textColor -->
+    <color name="materialLightBlue100">#B3E5FC</color> <!-- Black textColor -->
+    <color name="materialLightBlue200">#81D4FA</color> <!-- Black textColor -->
+    <color name="materialLightBlue300">#4FC3F7</color> <!-- Black textColor -->
+    <color name="materialLightBlue400">#29B6F6</color> <!-- Black textColor -->
+    <color name="materialLightBlue500">#03A9F4</color> <!-- Black textColor -->
+    <color name="materialLightBlue600">#039BE5</color> <!-- White textColor -->
+    <color name="materialLightBlue700">#0288D1</color> <!-- White textColor -->
+    <color name="materialLightBlue800">#0277BD</color> <!-- White textColor -->
+    <color name="materialLightBlue900">#01579B</color> <!-- White textColor -->
+
+    <color name="materialLightBlueA100">#80D8FF</color> <!-- Black textColor -->
+    <color name="materialLightBlueA200">#40C4FF</color> <!-- Black textColor -->
+    <color name="materialLightBlueA400">#00B0FF</color> <!-- Black textColor -->
+    <color name="materialLightBlueA700">#0091EA</color> <!-- White textColor -->
+
+    <!-- Cyan -->
+    <color name="materialCyan50">#E0F7FA</color> <!-- Black textColor -->
+    <color name="materialCyan100">#B2EBF2</color> <!-- Black textColor -->
+    <color name="materialCyan200">#80DEEA</color> <!-- Black textColor -->
+    <color name="materialCyan300">#4DD0E1</color> <!-- Black textColor -->
+    <color name="materialCyan400">#26C6DA</color> <!-- Black textColor -->
+    <color name="materialCyan500">#00BCD4</color> <!-- Black textColor -->
+    <color name="materialCyan600">#00ACC1</color> <!-- Black textColor -->
+    <color name="materialCyan700">#0097A7</color> <!-- White textColor -->
+    <color name="materialCyan800">#00838F</color> <!-- White textColor -->
+    <color name="materialCyan900">#006064</color> <!-- White textColor -->
+
+    <color name="materialCyanA100">#84FFFF</color> <!-- Black textColor -->
+    <color name="materialCyanA200">#18FFFF</color> <!-- Black textColor -->
+    <color name="materialCyanA400">#00E5FF</color> <!-- Black textColor -->
+    <color name="materialCyanA700">#00B8D4</color> <!-- Black textColor -->
+
+    <!-- Teal -->
+    <color name="materialTeal50">#E0F2F1</color> <!-- Black textColor -->
+    <color name="materialTeal100">#B2DFDB</color> <!-- Black textColor -->
+    <color name="materialTeal200">#80CBC4</color> <!-- Black textColor -->
+    <color name="materialTeal300">#4DB6AC</color> <!-- Black textColor -->
+    <color name="materialTeal400">#26A69A</color> <!-- Black textColor -->
+    <color name="materialTeal500">#009688</color> <!-- White textColor -->
+    <color name="materialTeal600">#00897B</color> <!-- White textColor -->
+    <color name="materialTeal700">#00796B</color> <!-- White textColor -->
+    <color name="materialTeal800">#00695C</color> <!-- White textColor -->
+    <color name="materialTeal900">#004D40</color> <!-- White textColor -->
+
+    <color name="materialTealA100">#A7FFEB</color> <!-- Black textColor -->
+    <color name="materialTealA200">#64FFDA</color> <!-- Black textColor -->
+    <color name="materialTealA400">#1DE9B6</color> <!-- Black textColor -->
+    <color name="materialTealA700">#00BFA5</color> <!-- Black textColor -->
+
+    <!-- Green -->
+    <color name="materialGreen50">#E8F5E9</color> <!-- Black textColor -->
+    <color name="materialGreen100">#C8E6C9</color> <!-- Black textColor -->
+    <color name="materialGreen200">#A5D6A7</color> <!-- Black textColor -->
+    <color name="materialGreen300">#81C784</color> <!-- Black textColor -->
+    <color name="materialGreen400">#66BB6A</color> <!-- Black textColor -->
+    <color name="materialGreen500">#4CAF50</color> <!-- Black textColor -->
+    <color name="materialGreen600">#43A047</color> <!-- White textColor -->
+    <color name="materialGreen700">#388E3C</color> <!-- White textColor -->
+    <color name="materialGreen800">#2E7D32</color> <!-- White textColor -->
+    <color name="materialGreen900">#1B5E20</color> <!-- White textColor -->
+
+    <color name="materialGreenA100">#B9F6CA</color> <!-- Black textColor -->
+    <color name="materialGreenA200">#69F0AE</color> <!-- Black textColor -->
+    <color name="materialGreenA400">#00E676</color> <!-- Black textColor -->
+    <color name="materialGreenA700">#00C853</color> <!-- Black textColor -->
+
+    <!-- LightGreen -->
+    <color name="materialLightGreen50">#F1F8E9</color> <!-- Black textColor -->
+    <color name="materialLightGreen100">#DCEDC8</color> <!-- Black textColor -->
+    <color name="materialLightGreen200">#C5E1A5</color> <!-- Black textColor -->
+    <color name="materialLightGreen300">#AED581</color> <!-- Black textColor -->
+    <color name="materialLightGreen400">#9CCC65</color> <!-- Black textColor -->
+    <color name="materialLightGreen500">#8BC34A</color> <!-- Black textColor -->
+    <color name="materialLightGreen600">#7CB342</color> <!-- Black textColor -->
+    <color name="materialLightGreen700">#689F38</color> <!-- White textColor -->
+    <color name="materialLightGreen800">#558B2F</color> <!-- White textColor -->
+    <color name="materialLightGreen900">#33691E</color> <!-- White textColor -->
+
+    <color name="materialLightGreenA100">#CCFF90</color> <!-- Black textColor -->
+    <color name="materialLightGreenA200">#B2FF59</color> <!-- Black textColor -->
+    <color name="materialLightGreenA400">#76FF03</color> <!-- Black textColor -->
+    <color name="materialLightGreenA700">#64DD17</color> <!-- Black textColor -->
+
+    <!-- Lime -->
+    <color name="materialLime50">#F9FBE7</color> <!-- Black textColor -->
+    <color name="materialLime100">#F0F4C3</color> <!-- Black textColor -->
+    <color name="materialLime200">#E6EE9C</color> <!-- Black textColor -->
+    <color name="materialLime300">#DCE775</color> <!-- Black textColor -->
+    <color name="materialLime400">#D4E157</color> <!-- Black textColor -->
+    <color name="materialLime500">#CDDC39</color> <!-- Black textColor -->
+    <color name="materialLime600">#C0CA33</color> <!-- Black textColor -->
+    <color name="materialLime700">#AFB42B</color> <!-- Black textColor -->
+    <color name="materialLime800">#9E9D24</color> <!-- Black textColor -->
+    <color name="materialLime900">#827717</color> <!-- White textColor -->
+
+    <color name="materialLimeA100">#F4FF81</color> <!-- Black textColor -->
+    <color name="materialLimeA200">#EEFF41</color> <!-- Black textColor -->
+    <color name="materialLimeA400">#C6FF00</color> <!-- Black textColor -->
+    <color name="materialLimeA700">#AEEA00</color> <!-- Black textColor -->
+
+    <!-- Yellow -->
+    <color name="materialYellow50">#FFFDE7</color> <!-- Black textColor -->
+    <color name="materialYellow100">#FFF9C4</color> <!-- Black textColor -->
+    <color name="materialYellow200">#FFF59D</color> <!-- Black textColor -->
+    <color name="materialYellow300">#FFF176</color> <!-- Black textColor -->
+    <color name="materialYellow400">#FFEE58</color> <!-- Black textColor -->
+    <color name="materialYellow500">#FFEB3B</color> <!-- Black textColor -->
+    <color name="materialYellow600">#FDD835</color> <!-- Black textColor -->
+    <color name="materialYellow700">#FBC02D</color> <!-- Black textColor -->
+    <color name="materialYellow800">#F9A825</color> <!-- Black textColor -->
+    <color name="materialYellow900">#F57F17</color> <!-- Black textColor -->
+
+    <color name="materialYellowA100">#FFFF8D</color> <!-- Black textColor -->
+    <color name="materialYellowA200">#FFFF00</color> <!-- Black textColor -->
+    <color name="materialYellowA400">#FFEA00</color> <!-- Black textColor -->
+    <color name="materialYellowA700">#FFD600</color> <!-- Black textColor -->
+
+    <!-- Amber -->
+    <color name="materialAmber50">#FFF8E1</color> <!-- Black textColor -->
+    <color name="materialAmber100">#FFECB3</color> <!-- Black textColor -->
+    <color name="materialAmber200">#FFE082</color> <!-- Black textColor -->
+    <color name="materialAmber300">#FFD54F</color> <!-- Black textColor -->
+    <color name="materialAmber400">#FFCA28</color> <!-- Black textColor -->
+    <color name="materialAmber500">#FFC107</color> <!-- Black textColor -->
+    <color name="materialAmber600">#FFB300</color> <!-- Black textColor -->
+    <color name="materialAmber700">#FFA000</color> <!-- Black textColor -->
+    <color name="materialAmber800">#FF8F00</color> <!-- Black textColor -->
+    <color name="materialAmber900">#FF6F00</color> <!-- Black textColor -->
+
+    <color name="materialAmberA100">#FFE57F</color> <!-- Black textColor -->
+    <color name="materialAmberA200">#FFD740</color> <!-- Black textColor -->
+    <color name="materialAmberA400">#FFC400</color> <!-- Black textColor -->
+    <color name="materialAmberA700">#FFAB00</color> <!-- Black textColor -->
+
+    <!-- Orange -->
+    <color name="materialOrange50">#FFF3E0</color> <!-- Black textColor -->
+    <color name="materialOrange100">#FFE0B2</color> <!-- Black textColor -->
+    <color name="materialOrange200">#FFCC80</color> <!-- Black textColor -->
+    <color name="materialOrange300">#FFB74D</color> <!-- Black textColor -->
+    <color name="materialOrange400">#FFA726</color> <!-- Black textColor -->
+    <color name="materialOrange500">#FF9800</color> <!-- Black textColor -->
+    <color name="materialOrange600">#FB8C00</color> <!-- Black textColor -->
+    <color name="materialOrange700">#F57C00</color> <!-- Black textColor -->
+    <color name="materialOrange800">#EF6C00</color> <!-- White textColor -->
+    <color name="materialOrange900">#E65100</color> <!-- White textColor -->
+
+    <color name="materialOrangeA100">#FFD180</color> <!-- Black textColor -->
+    <color name="materialOrangeA200">#FFAB40</color> <!-- Black textColor -->
+    <color name="materialOrangeA400">#FF9100</color> <!-- Black textColor -->
+    <color name="materialOrangeA700">#FF6D00</color> <!-- Black textColor -->
+
+    <!-- DeepOrange -->
+    <color name="materialDeepOrange50">#FBE9E7</color> <!-- Black textColor -->
+    <color name="materialDeepOrange100">#FFCCBC</color> <!-- Black textColor -->
+    <color name="materialDeepOrange200">#FFAB91</color> <!-- Black textColor -->
+    <color name="materialDeepOrange300">#FF8A65</color> <!-- Black textColor -->
+    <color name="materialDeepOrange400">#FF7043</color> <!-- Black textColor -->
+    <color name="materialDeepOrange500">#FF5722</color> <!-- White textColor -->
+    <color name="materialDeepOrange600">#F4511E</color> <!-- White textColor -->
+    <color name="materialDeepOrange700">#E64A19</color> <!-- White textColor -->
+    <color name="materialDeepOrange800">#D84315</color> <!-- White textColor -->
+    <color name="materialDeepOrange900">#BF360C</color> <!-- White textColor -->
+
+    <color name="materialDeepOrangeA100">#FF9E80</color> <!-- Black textColor -->
+    <color name="materialDeepOrangeA200">#FF6E40</color> <!-- Black textColor -->
+    <color name="materialDeepOrangeA400">#FF3D00</color> <!-- White textColor -->
+    <color name="materialDeepOrangeA700">#DD2C00</color> <!-- White textColor -->
+
+    <!-- Brown -->
+    <color name="materialBrown50">#EFEBE9</color> <!-- Black textColor -->
+    <color name="materialBrown100">#D7CCC8</color> <!-- Black textColor -->
+    <color name="materialBrown200">#BCAAA4</color> <!-- Black textColor -->
+    <color name="materialBrown300">#A1887F</color> <!-- White textColor -->
+    <color name="materialBrown400">#8D6E63</color> <!-- White textColor -->
+    <color name="materialBrown500">#795548</color> <!-- White textColor -->
+    <color name="materialBrown600">#6D4C41</color> <!-- White textColor -->
+    <color name="materialBrown700">#5D4037</color> <!-- White textColor -->
+    <color name="materialBrown800">#4E342E</color> <!-- White textColor -->
+    <color name="materialBrown900">#3E2723</color> <!-- White textColor -->
+
+    <!-- Grey -->
+    <color name="materialGrey50">#FAFAFA</color> <!-- Black textColor -->
+    <color name="materialGrey100">#F5F5F5</color> <!-- Black textColor -->
+    <color name="materialGrey200">#EEEEEE</color> <!-- Black textColor -->
+    <color name="materialGrey300">#E0E0E0</color> <!-- Black textColor -->
+    <color name="materialGrey400">#BDBDBD</color> <!-- Black textColor -->
+    <color name="materialGrey500">#9E9E9E</color> <!-- Black textColor -->
+    <color name="materialGrey600">#757575</color> <!-- White textColor -->
+    <color name="materialGrey700">#616161</color> <!-- White textColor -->
+    <color name="materialGrey800">#424242</color> <!-- White textColor -->
+    <color name="materialGrey900">#212121</color> <!-- White textColor -->
+
+    <!-- BlueGrey -->
+    <color name="materialBlueGrey50">#ECEFF1</color> <!-- Black textColor -->
+    <color name="materialBlueGrey100">#CFD8DC</color> <!-- Black textColor -->
+    <color name="materialBlueGrey200">#B0BEC5</color> <!-- Black textColor -->
+    <color name="materialBlueGrey300">#90A4AE</color> <!-- Black textColor -->
+    <color name="materialBlueGrey400">#78909C</color> <!-- White textColor -->
+    <color name="materialBlueGrey500">#607D8B</color> <!-- White textColor -->
+    <color name="materialBlueGrey600">#546E7A</color> <!-- White textColor -->
+    <color name="materialBlueGrey700">#455A64</color> <!-- White textColor -->
+    <color name="materialBlueGrey800">#37474F</color> <!-- White textColor -->
+    <color name="materialBlueGrey900">#263238</color> <!-- White textColor -->
+
+    <!--         others             -->
+    <!-- Black -->
+    <color name="materialBlack">#000000</color> <!-- White textColor -->
+
+    <!-- White -->
+    <color name="materialWhite">#FFFFFF</color> <!-- Black textColor -->
+
+    <!-- NightMode -->
+    <color name="materialNight">#333333</color>
+
+    <!-- Light Theme -->
+    <color name="lightTextColorPrimary">#212121</color>
+    <color name="lightTextColorSecondary">#727272</color>
+    <color name="lightIconsTint">#727272</color>
+    <color name="lightDivider">#B6B6B6</color>
+    <color name="lightWindowBackground">#C0C3C6</color>
+    <color name="lightRowBackground">#F2F2F2</color>
+
+    <!-- Dark Theme -->
+    <color name="darkTextColorPrimary">#FFFFFF</color>
+    <color name="darkTextColorSecondary">#B2B2B2</color>
+    <color name="darkIconsTint">#FFFFFF</color>
+    <color name="darkDivider">#1E1E1E</color>
+    <color name="darkWindowBackground">#212121</color>
+    <color name="darkRowBackground">#34474F</color>
+
+    <!-- Black -->
+    <color name="material_light_black">#000000</color>
+    <!-- White -->
+    <color name="material_light_white">#FFFFFF</color>
+    <!-- Transparent -->
+    <color name="material_transparent">#00000000</color>
+    <!-- light theme palette -->
+    <color name="light_theme_status_bar">@color/material_grey_300</color>
+    <color name="light_theme_app_bar">@color/material_grey_100</color>
+    <color name="light_theme_background">@color/material_grey_50</color>
+    <color name="light_theme_cards_dialogs">@color/material_light_white</color>
+
+    <color name="light_theme_base">@color/material_light_black</color>
+    <color name="light_theme_text">@color/black_text</color>
+    <color name="light_theme_text_secondary">@color/black_text_secondary</color>
+    <color name="light_theme_text_disabled">@color/black_text_disabled</color>
+    <color name="light_theme_dividers">@color/black_dividers</color>
+
+
+    <!-- dark theme palette -->
+    <color name="dark_theme_status_bar">@color/black</color>
+    <color name="dark_theme_app_bar">@color/material_grey_900</color>
+    <color name="dark_theme_background">#303030</color>
+    <color name="dark_theme_cards_dialogs">@color/material_grey_800</color>
+
+    <color name="dark_theme_base">@color/white</color>
+    <color name="dark_theme_text">@color/white_text</color>
+    <color name="dark_theme_text_secondary">@color/white_text_secondary</color>
+    <color name="dark_theme_text_disabled">@color/white_text_disabled</color>
+    <color name="dark_theme_dividers">@color/white_dividers</color>
+
+    <color name="black">#000000</color>
+    <color name="black_dividers">#1f000000</color>
+    <color name="black_text_disabled">#42000000</color>
+    <color name="black_text_secondary">#8a000000</color>
+    <color name="black_text">#de000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_dividers">#1fffffff</color>
+    <color name="white_text_disabled">#4dffffff</color>
+    <color name="white_text_secondary">#b3ffffff</color>
+    <color name="white_text">#ffffff</color>
+
+    <!--                             Flat colors        https://www.materialui.co                           -->
+    <color name="flatTurquoise">#1abc9c</color>
+    <color name="flatGreensea">#16a085</color>
+    <color name="flatSunflower">#f1c40f</color>
+    <color name="flatOrange">#f39c12</color>
+    <color name="flatEmerland">#2ecc71</color>
+    <color name="flatNephritis">#27ae60</color>
+    <color name="flatCarrot">#e67e22</color>
+    <color name="flatPumpkin">#d35400</color>
+    <color name="flatPeterriver">#3498db</color>
+    <color name="flatBelizehole">#2980b9</color>
+    <color name="flatAlizarin">#e74c3c</color>
+    <color name="flatPomegranate">#c0392b</color>
+    <color name="flatAmethyst">#9b59b6</color>
+    <color name="flatWisteria">#8e44ad</color>
+    <color name="flatClouds">#ecf0f1</color>
+    <color name="flatSilver">#bdc3c7</color>
+    <color name="flatWetasphalt">#34495e</color>
+    <color name="flatMidnightvlue">#2c3e50</color>
+    <color name="flatConcrete">#95a5a6</color>
+    <color name="flatAsbestos">#7f8c8d</color>
+
+    <!--                              Fluent Colors            https://www.materialui.co           -->
+    <color name="fluentFFB900">#FFB900</color>
+    <color name="fluentFF8C00">#FF8C00</color>
+    <color name="fluentF7630C">#F7630C</color>
+    <color name="fluentCA5010">#CA5010</color>
+    <color name="fluentDA3B01">#DA3B01</color>
+    <color name="fluentEF6950">#EF6950</color>
+    <color name="fluentD13438">#D13438</color>
+    <color name="fluentFF4343">#FF4343</color>
+    <color name="fluentE74856">#E74856</color>
+    <color name="fluentE81123">#E81123</color>
+    <color name="fluentEA005E">#EA005E</color>
+    <color name="fluentC30052">#C30052</color>
+    <color name="fluentE3008C">#E3008C</color>
+    <color name="fluentBF0077">#BF0077</color>
+    <color name="fluentC239B3">#C239B3</color>
+    <color name="fluent9A0089">#9A0089</color>
+    <color name="fluent0078D7">#0078D7</color>
+    <color name="fluent0063B1">#0063B1</color>
+    <color name="fluent8E8CD8">#8E8CD8</color>
+    <color name="fluent6B69D6">#6B69D6</color>
+    <color name="fluent8764B8">#8764B8</color>
+    <color name="fluent744DA9">#744DA9</color>
+    <color name="fluentB146C2">#B146C2</color>
+    <color name="fluent881798">#881798</color>
+    <color name="fluent0099BC">#0099BC</color>
+    <color name="fluent2D7D9A">#2D7D9A</color>
+    <color name="fluent00B7C3">#00B7C3</color>
+    <color name="fluent038387">#038387</color>
+    <color name="fluent00B294">#00B294</color>
+    <color name="fluent018574">#018574</color>
+    <color name="fluent00CC6A">#00CC6A</color>
+    <color name="fluent10893E">#10893E</color>
+    <color name="fluent7A7574">#7A7574</color>
+    <color name="fluent5D5A58">#5D5A58</color>
+    <color name="fluent68768A">#68768A</color>
+    <color name="fluent515C6B">#515C6B</color>
+    <color name="fluent567C73">#567C73</color>
+    <color name="fluent486860">#486860</color>
+    <color name="fluent498205">#498205</color>
+    <color name="fluent107C10">#107C10</color>
+    <color name="fluent767676">#767676</color>
+    <color name="fluent4C4A48">#4C4A48</color>
+    <color name="fluent69797E">#69797E</color>
+    <color name="fluent4A5459">#4A5459</color>
+    <color name="fluent647C64">#647C64</color>
+    <color name="fluent525E54">#525E54</color>
+    <color name="fluent847545">#847545</color>
+    <color name="fluent7E735F">#7E735F</color>
+
+
+    <!--                          Social Colors              https://www.materialui.co       -->
+    <color name="socialFacebook">#3b5999</color>
+    <color name="socialMessenger">#0084ff</color>
+    <color name="socialTwitter">#55acee</color>
+    <color name="socialLinkedIn">#0077B5</color>
+    <color name="socialSkype">#00AFF0</color>
+    <color name="socialDropbox">#007ee5</color>
+
+    <color name="socialWordpress">#21759b</color>
+    <color name="socialVimeo">#1ab7ea</color>
+    <color name="socialSlideShare">#0077b5</color>
+    <color name="socialVK">#4c75a3</color>
+    <color name="socialTumblr">#34465d</color>
+    <color name="socialYahoo">#410093</color>
+
+    <color name="socialGooglePlus">#dd4b39</color>
+    <color name="socialPinterest">#bd081c</color>
+    <color name="socialYoutube">#cd201f</color>
+    <color name="socialStumbleUpon">#eb4924</color>
+    <color name="socialReddit">#ff5700</color>
+    <color name="socialQuora">#b92b27</color>
+
+    <color name="socialYelp">#af0606</color>
+    <color name="socialWeibo">#df2029</color>
+    <color name="socialProductHunt">#da552f</color>
+    <color name="socialHackerNews">#ff6600</color>
+    <color name="socialSoundcloud">#ff3300</color>
+    <color name="socialBlogger">#f57d00</color>
+
+    <color name="socialWhatsApp">#25D366</color>
+    <color name="socialWeChat">#09b83e</color>
+    <color name="socialLine">#00c300</color>
+    <color name="socialMedium">#02b875</color>
+    <color name="socialVine">#00b489</color>
+    <color name="socialSlack">#3aaf85</color>
+
+    <color name="socialInstagram">#e4405f</color>
+    <color name="socialDribble">#ea4c89</color>
+    <color name="socialFlickr">#ff0084</color>
+    <color name="socialFourSquare">#f94877</color>
+    <color name="socialBehance">#131418</color>
+    <color name="socialSnapChat">#FFFC00</color>
+
+    <!--                         Metro Colors       https://www.materialui.co                -->
+    <color name="metroLime">#a4c400</color>
+    <color name="metroGreen">#60a917</color>
+    <color name="metroEmerald">#008a00</color>
+    <color name="metroTeal">#00aba9</color>
+    <color name="metroCyan">#1ba1e2</color>
+    <color name="metroCobalt">#0050ef</color>
+    <color name="metroIndigo">#6a00ff</color>
+    <color name="metroViolet">#aa00ff</color>
+    <color name="metroPink">#f472d0</color>
+    <color name="metroMagenta">#d80073</color>
+    <color name="metroCrimson">#a20025</color>
+    <color name="metroRed">#e51400</color>
+    <color name="metroOrange">#fa6800</color>
+    <color name="metroAmber">#f0a30a</color>
+    <color name="metroYellow">#e3c800</color>
+    <color name="metroBrown">#825a2c</color>
+    <color name="metroOlive">#6d8764</color>
+    <color name="metroSteel">#647687</color>
+    <color name="metroMauve">#76608a</color>
+    <color name="metroSienna">#a0522d</color>
+
+
+    <!--                        HTML Colors    https://www.materialui.co            -->
+    <color name="htmlGainsboro">#DCDCDC</color>
+    <color name="htmlLightGray">#D3D3D3</color>
+    <color name="htmlSilver">#C0C0C0</color>
+    <color name="htmlDarkGray">#A9A9A9</color>
+    <color name="htmlGray">#808080</color>
+    <color name="htmlDimGray">#696969</color>
+    <color name="htmlLightSlateGray">#778899</color>
+    <color name="htmlSlateGray">#708090</color>
+    <color name="htmlDarkSlateGray">#2F4F4F</color>
+    <color name="htmlBlack">#000000</color>
+
+    <color name="htmlCornsilk">#FFF8DC</color>
+    <color name="htmlBlanchedAlmond">#FFEBCD</color>
+    <color name="htmlBisque">#FFE4C4</color>
+    <color name="htmlNavajoWhite">#FFDEAD</color>
+    <color name="htmlWheat">#F5DEB3</color>
+    <color name="htmlBurlyWood">#DEB887</color>
+    <color name="htmlTan">#D2B48C</color>
+    <color name="htmlRosyBrown">#BC8F8F</color>
+    <color name="htmlSandyBrown">#F4A460</color>
+    <color name="htmlGoldenrod">#DAA520</color>
+    <color name="htmlDarkGoldenrod">#B8860B</color>
+    <color name="htmlPeru">#CD853F</color>
+    <color name="htmlChocolate">#D2691E</color>
+    <color name="htmlSaddleBrown">#8B4513</color>
+    <color name="htmlSienna">#A0522D</color>
+    <color name="htmlBrown">#A52A2A</color>
+    <color name="htmlMaroon">#800000</color>
+
+    <color name="htmlIndianRed">#CD5C5C</color>
+    <color name="htmlLightCoral">#F08080</color>
+    <color name="htmlSalmon">#FA8072</color>
+    <color name="htmlDarkSalmon">#E9967A</color>
+    <color name="htmlLightSalmon">#FFA07A</color>
+    <color name="htmlCrimson">#DC143C</color>
+    <color name="htmlRed">#FF0000</color>
+    <color name="htmlFireBrick">#B22222</color>
+    <color name="htmlDarkRed">#8B0000</color>
+
+    <color name="htmlPink">#FFC0CB</color>
+    <color name="htmlLightPink">#FFB6C1</color>
+    <color name="htmlHotPink">#FF69B4</color>
+    <color name="htmlDeepPink">#FF1493</color>
+    <color name="htmlMediumVioletRed">#C71585</color>
+    <color name="htmlPaleVioletRed">#DB7093</color>
+
+    <color name="htmlCoral">#FF7F50</color>
+    <color name="htmlTomato">#FF6347</color>
+    <color name="htmlOrangeRed">#FF4500</color>
+    <color name="htmlDarkOrange">#FF8C00</color>
+    <color name="htmlOrange">#FFA500</color>
+
+    <color name="htmlGold">#FFD700</color>
+    <color name="htmlYellow">#FFFF00</color>
+    <color name="htmlLightYellow">#FFFFE0</color>
+    <color name="htmlLemonChiffon">#FFFACD</color>
+    <color name="htmlLightGoldenrodYellow">#FAFAD2</color>
+    <color name="htmlPapayaWhip">#FFEFD5</color>
+    <color name="htmlMoccasin">#FFE4B5</color>
+    <color name="htmlPeachPuff">#FFDAB9</color>
+    <color name="htmlPaleGoldenrod">#EEE8AA</color>
+    <color name="htmlKhaki">#F0E68C</color>
+    <color name="htmlDarkKhaki">#BDB76B</color>
+
+    <color name="htmlGreenYellow">#ADFF2F</color>
+    <color name="htmlChartreuse">#7FFF00</color>
+    <color name="htmlLawnGreen">#7CFC00</color>
+    <color name="htmlLime">#00FF00</color>
+    <color name="htmlLimeGreen">#32CD32</color>
+    <color name="htmlPaleGreen">#98FB98</color>
+    <color name="htmlLightGreen">#90EE90</color>
+    <color name="htmlMediumSpringGreen">#00FA9A</color>
+    <color name="htmlSpringGreen">#00FF7F</color>
+    <color name="htmlMediumSeaGreen">#3CB371</color>
+    <color name="htmlSeaGreen">#2E8B57</color>
+    <color name="htmlForestGreen">#228B22</color>
+    <color name="htmlGreen">#008000</color>
+    <color name="htmlDarkGreen">#006400</color>
+    <color name="htmlYellowGreen">#9ACD32</color>
+    <color name="htmlOliveDrab">#6B8E23</color>
+    <color name="htmlOlive">#808000</color>
+    <color name="htmlDarkOliveGreen">#556B2F</color>
+    <color name="htmlMediumAquamarine">#66CDAA</color>
+    <color name="htmlDarkSeaGreen">#8FBC8B</color>
+    <color name="htmlLightSeaGreen">#20B2AA</color>
+    <color name="htmlDarkCyan">#008B8B</color>
+    <color name="htmlTeal">#008080</color>
+
+    <color name="htmlLavender">#E6E6FA</color>
+    <color name="htmlThistle">#D8BFD8</color>
+    <color name="htmlPlum">#DDA0DD</color>
+    <color name="htmlViolet">#EE82EE</color>
+    <color name="htmlOrchid">#DA70D6</color>
+    <color name="htmlFuchsia">#FF00FF</color>
+    <color name="htmlMagenta">#FF00FF</color>
+    <color name="htmlMediumOrchid">#BA55D3</color>
+    <color name="htmlMediumPurple">#9370DB</color>
+    <color name="htmlRebeccaPurple">#663399</color>
+    <color name="htmlBlueViolet">#8A2BE2</color>
+    <color name="htmlDarkViolet">#9400D3</color>
+    <color name="htmlDarkOrchid">#9932CC</color>
+    <color name="htmlDarkMagenta">#8B008B</color>
+    <color name="htmlPurple">#800080</color>
+    <color name="htmlIndigo">#4B0082</color>
+    <color name="htmlSlateBlue">#6A5ACD</color>
+    <color name="htmlDarkSlateBlue">#483D8B</color>
+    <color name="htmlMediumSlateBlue">#7B68EE</color>
+
+    <color name="htmlAqua">#00FFFF</color>
+    <color name="htmlCyan">#00FFFF</color>
+    <color name="htmlLightCyan">#E0FFFF</color>
+    <color name="htmlPaleTurquoise">#AFEEEE</color>
+    <color name="htmlAquamarine">#7FFFD4</color>
+    <color name="htmlTurquoise">#40E0D0</color>
+    <color name="htmlMediumTurquoise">#48D1CC</color>
+    <color name="htmlDarkTurquoise">#00CED1</color>
+    <color name="htmlCadetBlue">#5F9EA0</color>
+    <color name="htmlSteelBlue">#4682B4</color>
+    <color name="htmlLightSteelBlue">#B0C4DE</color>
+    <color name="htmlPowderBlue">#B0E0E6</color>
+    <color name="htmlLightBlue">#ADD8E6</color>
+    <color name="htmlSkyBlue">#87CEEB</color>
+    <color name="htmlLightSkyBlue">#87CEFA</color>
+    <color name="htmlDeepSkyBlue">#00BFFF</color>
+    <color name="htmlDodgerBlue">#1E90FF</color>
+    <color name="htmlCornFlowerBlue">#6495ED</color>
+    <color name="htmlRoyalBlue">#4169E1</color>
+    <color name="htmlBlue">#0000FF</color>
+    <color name="htmlMediumBlue">#0000CD</color>
+    <color name="htmlDarkBlue">#00008B</color>
+    <color name="htmlNavy">#000080</color>
+    <color name="htmlMidnightBlue">#191970</color>
+
+    <color name="htmlWhite">#FFFFFF</color>
+    <color name="htmlSnow">#FFFAFA</color>
+    <color name="htmlHoneyDew">#F0FFF0</color>
+    <color name="htmlMintCream">#F5FFFA</color>
+    <color name="htmlAzure">#F0FFFF</color>
+    <color name="htmlAliceBlue">#F0F8FF</color>
+    <color name="htmlGhostWhite">#F8F8FF</color>
+    <color name="htmlWhiteSmoke">#F5F5F5</color>
+    <color name="htmlSeaShell">#FFF5EE</color>
+    <color name="htmlBeige">#F5F5DC</color>
+    <color name="htmlOldLace">#FDF5E6</color>
+    <color name="htmlFloralWhite">#FFFAF0</color>
+    <color name="htmlIvory">#FFFFF0</color>
+    <color name="htmlAntiqueWhite">#FAEBD7</color>
+    <color name="htmlLinen">#FAF0E6</color>
+    <color name="htmlLavenderBlush">#FFF0F5</color>
+    <color name="htmlMistyRose">#FFE4E1</color>
+</resources>
