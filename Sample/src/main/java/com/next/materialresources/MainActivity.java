@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity
 		// color sources for old gradients
 		// material color from 300 to 700
 		// colors sources for new gradients
-		// https://webgradients.com
+		// https://webgradients.com till 18
 	}
 }
