@@ -7,3 +7,4 @@
 		android:endColor="#6991c7"
 		android:startColor="#a3bded" />
 </shape>
+<!--background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);-->

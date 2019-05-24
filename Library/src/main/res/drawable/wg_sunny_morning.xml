@@ -3,7 +3,8 @@
     android:shape="rectangle">
 
     <gradient
-        android:angle="-135"
+        android:angle="315"
         android:endColor="#fda085"
         android:startColor="#f6d365" />
 </shape>
+<!--background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);-->
