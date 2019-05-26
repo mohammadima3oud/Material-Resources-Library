@@ -160,14 +160,12 @@ dependencies {
   android:textSize="@dimen/typography_headline"
   ```
 
-Changelog
----------
+## Changelog
 * **1.0.0**
     * Initial release
 
 
-License
--------
+## License
 
     Copyright 2019 ma3udmohammadi
 
