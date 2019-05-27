@@ -1,3 +1,5 @@
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Material--Resources--Library-green.svg?style=flat )]( https://android-arsenal.com/details/1/7688 )
+
 # Material-Resources-Library
 A list of most useful resources for designing android apps such as all material colors and dimens, 180 Gradient background + html, social, flat,fluent, metro colors.
 you can use colors with java, kotlin, xml.
