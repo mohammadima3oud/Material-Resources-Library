@@ -1,4 +1,5 @@
-[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Material--Resources--Library-green.svg?style=flat )]( https://android-arsenal.com/details/1/7688 )
+[![platform](https://img.shields.io/badge/platform-android-green.svg )](http://developer.android.com/index.html)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Material--Resources--Library-green.svg?style=flat )]( https://android-arsenal.com/details/1/7688)
 [![JitPack](https://img.shields.io/github/tag/asyl/ArcAnimator.svg?label=maven)](https://jitpack.io/#ma3udmohammadi/Material-Resources-Library)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![API](https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=19)
