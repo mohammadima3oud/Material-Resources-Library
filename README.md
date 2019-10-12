@@ -1,8 +1,30 @@
 [![platform](https://img.shields.io/badge/platform-android-green.svg )](http://developer.android.com/index.html)
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Material--Resources--Library-green.svg?style=flat )]( https://android-arsenal.com/details/1/7688)
-[![JitPack](https://img.shields.io/github/tag/asyl/ArcAnimator.svg?label=maven)](https://jitpack.io/#ma3udmohammadi/Material-Resources-Library)
+[![JitPack](https://img.shields.io/github/tag/asyl/ArcAnimator.svg?label=maven)](https://jitpack.io/#mohammadima3oud/Material-Resources-Library)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![API](https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=19)
+
+
+<table>
+	<tbody>
+		<tr>
+			<td align="center">Timer UI</td>
+			<td align="center">Login UI</td>
+            <td align="center">Fitness UI</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<img src="Images/Timer UI.jpg" alt="Timer UI"/>
+			</td>
+			<td align="center">
+				<img src="Images/Login UI.jpg" alt="Login UI"/>
+			</td>
+			<td align="center">
+				<img src="Images/Fitness UI.jpg" alt="Fitness UI"/>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 # Material-Resources-Library
 A list of most useful resources for designing android apps such as all material colors and dimens, 180 Gradient background + html, social, flat,fluent, metro colors.
@@ -37,7 +59,7 @@ And add the library to your module **build.gradle**:
 
 ```Gradle
 dependencies {
-    implementation 'com.github.ma3udmohammadi:Material-Resources-Library:1.0.0'
+    implementation 'com.github.mohammadima3oud:Material-Resources-Library:1.0.0'
 }
 ```
 
@@ -166,6 +188,24 @@ dependencies {
   android:textSize="@dimen/typography_headline"
   ```
 
+
+## Donations
+
+This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated. Thank you!
+
+**PayPal**
+
+* **[Donate $5](https://www.paypal.me/mohammadima3oud/5)**: Thank's for creating this project, here's a tea (or some juice) for you!
+* **[Donate $10](https://www.paypal.me/mohammadima3oud/10)**: Wow, I am stunned. Let me take you to the movies!
+* **[Donate $15](https://www.paypal.me/mohammadima3oud/15)**: I really appreciate your work, let's grab some lunch!
+* **[Donate $25](https://www.paypal.me/mohammadima3oud/25)**: That's some awesome stuff you did right there, dinner is on me!
+* **[Donate $50](https://www.paypal.me/mohammadima3oud/50)**: I really really want to support this project, great job!
+* **[Donate $100](https://www.paypal.me/mohammadima3oud/100)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
+* **[Donate $2799](https://www.paypal.me/mohammadima3oud/2799)**: Go buddy, buy Macbook Pro for yourself!
+
+Of course, you can also choose what you want to donate, all donations are awesome!
+
+
 ## Changelog
 * **1.0.0**
     * Initial release
@@ -173,7 +213,7 @@ dependencies {
 
 ## License
 
-    Copyright 2019 ma3udmohammadi
+    Copyright 2019 mohammadima3oud
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
